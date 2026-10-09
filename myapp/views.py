@@ -1,7 +1,8 @@
 from django.shortcuts import render
+from django.https import HttpResponse
 
 def home(request):
-    return 5
+    return HttpResponse("Hello munjya")
     
 
 # Create your views here.
